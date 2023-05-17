@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 
 //connect to db
-db.connect();
+// db.connect();
 
 route(app);
 
